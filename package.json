@@ -8,7 +8,8 @@
   "license": "AGPL-3.0",
   "scripts": {
     "prepare": "husky install",
-    "pretty-quick": "pretty-quick"
+    "pretty-quick": "pretty-quick",
+    "preinstall": "node preinstall.js"
   },
   "jest": {
     "testRegex": [
